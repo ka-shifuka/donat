@@ -12,13 +12,15 @@
   </head>
   <body>
     <audio 
-      style="position: abolute; margin: 1rem;"
+      id="myAuido"
+      style="position: absolute; margin: 1rem;"
       src="./Funkytown.mp3" autoplay controls>  
     </audio>
     
     <script>
-      let aud = document.querySelector("audio");
-      aud.play();
+      var audio = document.getElementById("myAudio");
+      audio.play();
+</script>
     </script>
   </body>
 </html>
